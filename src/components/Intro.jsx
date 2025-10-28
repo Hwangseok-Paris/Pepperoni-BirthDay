@@ -75,7 +75,8 @@ export default function Intro() {
           </span>
           <span>❗️ 각종 후원/협찬은 마다하지 않겠습니다ㅎㅎ. 다만 사전에 문의 부탁드립니다.</span>
           <span className="font-semibold text-green-200">
-            ❗️ 디제잉이 가능한 분이 계시다면 알려주세요!!!!
+            ❗️ 디제잉이 가능하시다거나 기깔나는 플레이리스트를 가지고 계신 분이 계시다면 꼭
+            알려주세요!!!!
           </span>
           <span className="font-semibold">❗️ 이외 별도 문의사항은 DM 부탁드릴게요^^ 🙏</span>
         </div>
