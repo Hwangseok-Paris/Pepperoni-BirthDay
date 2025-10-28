@@ -10,14 +10,17 @@ export default function Intro() {
 
   return (
     <>
-      <div className="flex flex-col gap-30 items-start">
+      <div className="flex flex-col gap-30 items-start max-w-screen-sm w-full mx-auto overflow-x-hidden">
         <div className="flex flex-col gap-4">
-          <span className="font-bold text-6xl text-green-400">INVITATION</span>
+          <span className="font-bold sm:text-6xl text-4xl text-green-400 break-words">
+            INVITATION
+          </span>{" "}
           <span className="font-bold text-3xl">2025. 10. 31 (FRI) 8PM</span>
           <div className="flex flex-col gap-1">
-            <span className="text-xl">
+            <span className="text-xl break-words">
               📍Surfers Booth
               <span
+                className="break-all"
                 onClick={() => window.open("https://www.instagram.com/surfersbooth_mw/", "_blank")}>
                 (@Surfersbooth_mw)
               </span>{" "}
@@ -51,7 +54,7 @@ export default function Intro() {
           </span>
         </div>
 
-        <div className="flex flex-col gap-9 border border-green-400 rounded-md py-10 px-5">
+        <div className="flex flex-col gap-9 border border-green-400 rounded-md py-10 px-5 w-full overflow-x-hidden">
           <div className="w-full text-center font-bold text-2xl">안내</div>
           <span>
             ❗️ 두 손 가볍게 오셔도 괜찮습니다. 오셔서 사고 치지 않고 재밌게 놀다가, 집에 두 발로
