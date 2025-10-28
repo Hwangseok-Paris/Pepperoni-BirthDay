@@ -4,6 +4,7 @@ import Intro from "../components/Intro";
 import Registration from "../components/Registration";
 import App from "../App";
 import Complete from "../components/Complete";
+import ParisisAdmin from "../components/ParisIsAdmin";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: "/complete",
         element: <Complete />,
+      },
+      {
+        path: "/parisisadmin",
+        element: <ParisisAdmin />,
       },
     ],
   },
