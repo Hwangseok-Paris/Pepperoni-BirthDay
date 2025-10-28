@@ -125,7 +125,7 @@ export default function Intro() {
             계시다면 꼭 알려주세요!!!!
           </span>
           <span className="font-semibold">
-            ❗️ 이외 별도 문의사항은 DM 부탁드릴게요^^ 🙏
+            🙏🏼 이외 별도 문의사항은 DM 부탁드릴게요^^
           </span>
         </div>
 
