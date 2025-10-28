@@ -27,6 +27,7 @@ export default function Intro() {
             </span>
             <span className="text-xl">서울시 마포구 포은로 54</span>
             <span className="text-xl">door open 8:00pm</span>
+            <span className="text-xl">door close 1:00am</span>
           </div>
         </div>
 
