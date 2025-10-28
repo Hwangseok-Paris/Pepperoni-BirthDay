@@ -2,7 +2,7 @@ export default function Complete() {
   return (
     <>
       <div className="flex flex-col justify-center items-center">
-        <div className="text-5xl font-bold text-green-400">REGESTRATION COMPLETE 🎉</div>
+        <div className="text-5xl font-bold text-green-400">REGISTRATION COMPLETE 🎉</div>
 
         <div className="w-full text-2xl text-[#F5F5F5] flex flex-col pt-10 pb-30">
           <span>감사합니다!</span>

@@ -37,27 +37,28 @@ export default function Intro() {
           </span> */}
           <span>
             장소는 제가 애정하는 망원동의 바 ‘서퍼스 부스’구요 음악과 맥주를 적당히 준비해
-            두겠습니다. 준비해 둔 맥주가 소진된 이후 부터는 서퍼스의 번영을 위해 원하시는 음료를
-            각자 구입하여 드셔주시면 감사하겠습니다. 서퍼스에는 맛있는 위스키와 칵테일, 태국
-            맥주들이 있어요.
+            두겠습니다. 준비해 둔 맥주가 소진된 이후부터는 서퍼스의 번영을 위해 원하시는 음료를 각자
+            구매해 드셔주시면 감사하겠습니다. 서퍼스에는 맛있는 위스키와 칵테일, 태국 맥주들이
+            있어요.
           </span>
           <span>
             재미있는 이벤트같은건 없습니다! 그냥 술과 함께 도란도란 이야기 나누는 분위기일 테니
-            기대하지 말아주시길 바라요.
+            기대하지 말아 주시길 바라요.
           </span>
           <span>
-            아래 안내사항을 잘 읽어주시고 귀한 걸음 해 주실 분 께서는 아래 버튼을 눌러 간단한 정보를
-            입력해주시면 감사하겠습니다!
+            아래 안내 사항을 잘 읽어 주시고, 귀한 걸음 해 주실 분께서는 아래 버튼을 눌러 간단한
+            정보를 입력해 주시면 감사하겠습니다!
           </span>
         </div>
-        <div className="flex flex-col gap-9 text-xl border border-green-400 rounded-md py-10 px-5">
+
+        <div className="flex flex-col gap-9 border border-green-400 rounded-md py-10 px-5">
           <div className="w-full text-center font-bold text-2xl">안내</div>
           <span>
-            ❗️ 두 손 가벼이 오셔도 괜찮습니다. 오셔서 사고 치지 않고 재밌게 놀다가 집에 두 발로
-            멀쩡히 돌아가 꿀잠 주무신다면 그것 만으로 저는 감사해요.
+            ❗️ 두 손 가볍게 오셔도 괜찮습니다. 오셔서 사고 치지 않고 재밌게 놀다가, 집에 두 발로
+            멀쩡히 돌아가 꿀잠 주무신다면 그것만으로 저는 감사해요.
           </span>
 
-          <span>❗️ 10 ~ 11시쯤 다같이 사진 한 장 남겨볼까 합니다!(변동가능)</span>
+          <span>❗️ 10 ~ 11시쯤 다 같이 사진 한 장 남겨볼까 합니다! (변동가능)</span>
           <span>
             ❗️ 11시 이후에는 Mongsang
             <span onClick={() => window.open("https://www.instagram.com/neverthelessthan")}>
