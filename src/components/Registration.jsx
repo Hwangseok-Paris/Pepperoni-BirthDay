@@ -51,7 +51,7 @@ export default function Registration() {
               </label>
               <input
                 type="text"
-                className="w-85 h-15 border border-green-400 rounded text-2xl px-4 text-center focus:outline-none placeholder:text-gray-600"
+                className="w-85 h-15 border border-green-400 rounded text-xl px-4 text-center focus:outline-none placeholder:text-gray-600"
                 placeholder="이름 혹은 제가 알 만한 무언가로.."
                 value={name}
                 onChange={(e) => setName(e.target.value)}
@@ -63,7 +63,7 @@ export default function Registration() {
               </label>
               <input
                 type="text"
-                className="w-85 h-15 border border-green-400  rounded text-2xl px-4 text-center focus:outline-none placeholder:text-gray-600"
+                className="w-85 h-15 border border-green-400  rounded text-xl px-4 text-center focus:outline-none placeholder:text-gray-600"
                 placeholder="8시"
                 value={eta}
                 onChange={(e) => setEta(e.target.value)}
@@ -85,8 +85,7 @@ export default function Registration() {
               <button
                 type="submit"
                 disabled={loading || !name.trim() || !eta.trim()}
-                className="w-full h-20 border border-green-400 bg-green-400/50 text-white rounded-sm text-xl disabled:opacity-50 disabled:cursor-not-allowed"
-              >
+                className="w-full h-20 border border-green-400 bg-green-400/50 text-white rounded-sm text-xl disabled:opacity-50 disabled:cursor-not-allowed">
                 {loading ? "등록 중..." : "등록하기"}
               </button>
             </div>
