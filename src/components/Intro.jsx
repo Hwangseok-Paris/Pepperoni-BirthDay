@@ -12,10 +12,10 @@ export default function Intro() {
     <>
       <div className="flex flex-col gap-10 items-start max-w-screen-sm w-full mx-auto overflow-x-hidden">
         <div className="flex flex-col gap-4">
-          <span className="font-bold sm:text-6xl text-4xl text-green-400 break-words">
+          <span className="font-bold sm:text-6xl text-4xl text-orange-600 break-words">
             INVITATION
           </span>{" "}
-          <span className="font-bold text-3xl">2025. 10. 31 (FRI) 8PM</span>
+          <span className="font-bold text-3xl text-orange-500">2026. 01. 09 (FRI) 8PM</span>
           <div className="flex flex-col gap-1">
             <span className="text-xl break-words">
               📍Surfers Booth
@@ -59,13 +59,13 @@ export default function Intro() {
             황금 같은 금요일 저녁, 귀한 걸음 해 주실 분께서는 아래 안내 사항을 잘 읽어 주시고, 아래
             버튼을 눌러 간단한 정보를 입력해 주시면 감사하겠습니다!
           </span>
-          <span className="text-sm text-pink-500">
+          <span className="text-sm text-orange-500">
             (저 스팸, 랜섬웨어, 해킹 이런거 할 줄 모릅니다.. 버튼 안심하고 누르세요..)
           </span>
         </div>
 
-        <div className="flex flex-col gap-9 border border-green-400 rounded-md py-10 px-5 w-full overflow-x-hidden">
-          <div className="w-full text-center font-bold text-2xl">안내</div>
+        <div className="flex flex-col gap-9 border border-orange-200 rounded-md py-10 px-5 w-full overflow-x-hidden bg-white">
+          <div className="w-full text-center font-bold text-2xl text-orange-600">안내</div>
           <span>
             ❗️ 두 손 가볍게 오셔도 괜찮습니다. 오셔서 사고 치지 않고 재밌게 놀다가, 집에 두 발로
             멀쩡히 돌아가 꿀잠 주무신다면 그것만으로 저는 감사해요.
@@ -99,7 +99,7 @@ export default function Intro() {
           <span>
             ❗️ 각종 후원/협찬은 마다하지 않겠습니다.😊 다만 사전에 알려주시면 감사하겠습니다.
           </span>
-          <span className="font-semibold text-green-400">
+          <span className="font-semibold text-orange-600">
             ❗️ 디제잉이 가능하시다거나 기깔나는 플레이리스트를 가지고 계신 분이 계시다면 꼭
             알려주세요!!!!
           </span>
@@ -108,7 +108,7 @@ export default function Intro() {
 
         <div className="w-full">
           <button
-            className="w-full h-20 border border-green-400 bg-green-400/50 text-white rounded-sm text-xl"
+            className="w-full h-20 border border-orange-300 bg-orange-500 text-white rounded-sm text-xl font-semibold shadow-[0_10px_25px_rgba(248,113,38,0.28)]"
             onClick={goReg}>
             등록하기
           </button>

@@ -4,7 +4,7 @@ import { Outlet, ScrollRestoration } from "react-router-dom";
 function App() {
   return (
     <>
-      <div className="w-screen min-h-screen bg-gray-900 text-gray-100 px-3 py-15">
+      <div className="w-screen min-h-screen bg-[#fff8ef] text-[#1f1409] px-5 py-15">
         <ScrollRestoration />
         <Outlet />
       </div>

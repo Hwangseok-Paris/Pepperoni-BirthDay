@@ -37,26 +37,26 @@ export default function ParisisAdmin() {
   return (
     <div className="max-w-2xl mx-auto p-6">
       <header className="flex items-end justify-between mb-6">
-        <h1 className="text-3xl font-bold text-green-400">Registrations</h1>
-        <div className="text-sm text-gray-400">{loading ? "Loading..." : `${list.length}명`}</div>
+        <h1 className="text-3xl font-bold text-orange-600">Registrations</h1>
+        <div className="text-sm text-gray-600">{loading ? "Loading..." : `${list.length}명`}</div>
       </header>
 
       {list.length === 0 && !loading ? (
-        <div className="text-center text-gray-400 border border-dashed border-green-400/40 rounded p-10">
+        <div className="text-center text-gray-500 border border-dashed border-orange-300/60 rounded p-10 bg-white">
           아직 등록 데이터가 없습니다.
         </div>
       ) : (
         <ul className="space-y-3">
           {list.map((item) => (
-            <li key={item.id} className="border border-green-400/60 rounded-md p-4">
+            <li key={item.id} className="border border-orange-200 rounded-md p-4 bg-white shadow-sm">
               <div className="flex items-center justify-between">
-                <div className="font-semibold text-lg text-white">{item.name || "(무명)"}</div>
-                <div className="text-xs text-gray-400">
+                <div className="font-semibold text-lg text-[#1f1409]">{item.name || "(무명)"}</div>
+                <div className="text-xs text-gray-600">
                   {item.createdAt ? item.createdAt.toLocaleString() : "—"}
                 </div>
               </div>
-              <div className="mt-1 text-green-300">ETA: {item.eta || "—"}</div>
-              {item.note && <div className="mt-2 text-sm text-gray-300">“{item.note}”</div>}
+              <div className="mt-1 text-orange-600">ETA: {item.eta || "—"}</div>
+              {item.note && <div className="mt-2 text-sm text-gray-700">“{item.note}”</div>}
             </li>
           ))}
         </ul>
